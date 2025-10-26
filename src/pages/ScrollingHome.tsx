@@ -227,25 +227,37 @@ export default function ScrollingHome() {
               </div>
 
               <div className="flex gap-4">
-                <a
-                  href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
-                  className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
-                >
-                  <Instagram size={28} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
-                  className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
-                >
-                  <Linkedin size={28} />
-                </a>
-                <a
-                  href="#"
-                  className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
-                >
-                  <Twitter size={28} />
-                </a>
-              </div>
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
+  >
+    <Instagram size={28} />
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
+  >
+    <Linkedin size={28} />
+  </a>
+
+  {/* Twitter / X */}
+  <a
+    href="https://x.com/auctri?t=zW6cXf4tYPpEdbsoUlu1Rg&s=09"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
+  >
+    <Twitter size={28} />
+  </a>
+</div>
+
             </div>
 
             <form className="flex-1 space-y-6 animate-fadeInRight">
@@ -281,137 +293,130 @@ export default function ScrollingHome() {
         </div>
       </section>
 
-      <footer className="bg-gray-900 text-white py-12 px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between gap-12 mb-8">
-            <div className="flex-1">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center">
-                  <span className="text-emerald-400 text-2xl font-bold">a</span>
-                  <span className="text-emerald-400 text-lg">*</span>
-                </div>
-                <span className="text-xl font-semibold">Auctri Studio</span>
-              </div>
-              <p className="text-gray-400 text-sm leading-relaxed max-w-md">
-                crafting a digital presence that commands attention, builds
-                trust, and drives success. Let's redefine your industry's
-                future—one click, one connection, one triumph at a time.
-              </p>
-              <div className="flex gap-4 mt-6">
-                <a
-                  href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
-                  className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
-                >
-                  <Instagram size={20} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
-                  className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
-                >
-                  <Linkedin size={20} />
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
-                >
-                  <Twitter size={20} />
-                </a>
-              </div>
-            </div>
-
-            <div className="flex gap-16">
-              <div>
-                <h3 className="font-semibold mb-4">Sitemap</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li>
-                    <button
-                      onClick={() =>
-                        document
-                          .getElementById("home")
-                          ?.scrollIntoView({ behavior: "smooth" })
-                      }
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      Home
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      onClick={() =>
-                        document
-                          .getElementById("work")
-                          ?.scrollIntoView({ behavior: "smooth" })
-                      }
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      Work
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      onClick={() =>
-                        document
-                          .getElementById("about")
-                          ?.scrollIntoView({ behavior: "smooth" })
-                      }
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      About us
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      onClick={() =>
-                        document
-                          .getElementById("contact")
-                          ?.scrollIntoView({ behavior: "smooth" })
-                      }
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      Contact us
-                    </button>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="font-semibold mb-4">Legal</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li>
-                    <a
-                      href="/privacy"
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      Privacy policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/terms"
-                      className="hover:text-emerald-400 transition-colors"
-                    >
-                      Terms of services
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+     <footer className="bg-gray-900 text-white py-12 px-8">
+  <div className="max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row justify-between gap-12 mb-8">
+      <div className="flex-1">
+        <div className="flex items-center gap-2 mb-4">
+          <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center">
+            <span className="text-emerald-400 text-2xl font-bold">a</span>
+            <span className="text-emerald-400 text-lg">*</span>
           </div>
-
-          <div className="border-t border-gray-800 pt-6">
-            <button
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="flex items-center gap-2 text-sm text-gray-400 hover:text-emerald-400 transition-colors group"
-            >
-              <span>Back to top</span>
-              <ArrowUpRight
-                size={16}
-                className="group-hover:translate-y-[-4px] transition-transform"
-              />
-            </button>
-          </div>
+          <span className="text-xl font-semibold">Auctri Studio</span>
         </div>
-      </footer>
+        <p className="text-gray-400 text-sm leading-relaxed max-w-md">
+          crafting a digital presence that commands attention, builds trust,
+          and drives success. Let's redefine your industry's future—one click,
+          one connection, one triumph at a time.
+        </p>
+
+        {/* --- Social Icons --- */}
+        <div className="flex gap-4 mt-6">
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
+          >
+            <Instagram size={20} />
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
+          >
+            <Linkedin size={20} />
+          </a>
+
+          {/* Twitter / X */}
+          <a
+            href="https://x.com/auctri?t=zW6cXf4tYPpEdbsoUlu1Rg&s=09"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
+          >
+            <Twitter size={20} />
+          </a>
+        </div>
+      </div>
+
+      {/* --- Sitemap --- */}
+      <div>
+        <h3 className="font-semibold mb-4">Sitemap</h3>
+        <ul className="space-y-2 text-gray-400">
+          <li>
+            <button
+              onClick={() =>
+                document
+                  .getElementById("home")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+              className="hover:text-emerald-400 transition-colors"
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() =>
+                document
+                  .getElementById("work")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+              className="hover:text-emerald-400 transition-colors"
+            >
+              Work
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() =>
+                document
+                  .getElementById("about")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+              className="hover:text-emerald-400 transition-colors"
+            >
+              About us
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
+              className="hover:text-emerald-400 transition-colors"
+            >
+              Contact us
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    {/* --- Footer Bottom --- */}
+    <div className="border-t border-gray-800 pt-6">
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className="flex items-center gap-2 text-sm text-gray-400 hover:text-emerald-400 transition-colors group"
+      >
+        <span>Back to top</span>
+        <ArrowUpRight
+          size={16}
+          className="group-hover:translate-y-[-4px] transition-transform"
+        />
+      </button>
+    </div>
+  </div>
+</footer>
+
+
     </div>
   );
 }

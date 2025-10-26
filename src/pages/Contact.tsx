@@ -17,13 +17,13 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
+              <a href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
                 <Instagram size={28} />
               </a>
-              <a href="#" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
+              <a href="https://www.linkedin.com/in/auctri-studio-420b2a386/" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
                 <Linkedin size={28} />
               </a>
-              <a href="#" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
+              <a href="https://x.com/auctri?t=zW6cXf4tYPpEdbsoUlu1Rg&s=09" className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-colors">
                 <Twitter size={28} />
               </a>
             </div>
