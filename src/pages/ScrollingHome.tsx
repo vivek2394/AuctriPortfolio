@@ -228,13 +228,13 @@ export default function ScrollingHome() {
 
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
                   className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
                 >
                   <Instagram size={28} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
                   className="w-14 h-14 bg-gray-900 text-white rounded-lg flex items-center justify-center hover:bg-emerald-400 hover:text-gray-900 transition-all hover:scale-110"
                 >
                   <Linkedin size={28} />
@@ -299,13 +299,13 @@ export default function ScrollingHome() {
               </p>
               <div className="flex gap-4 mt-6">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/auctri/?utm_source=ig_web_button_share_sheet"
                   className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
                 >
                   <Instagram size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/auctri-studio-420b2a386/"
                   className="w-10 h-10 bg-white text-gray-900 rounded flex items-center justify-center hover:bg-emerald-400 transition-colors"
                 >
                   <Linkedin size={20} />
